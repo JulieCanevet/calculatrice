@@ -95,47 +95,77 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.calculette
+.calcul
 {
-    background-color: blue;
-    width: 150px;
-    height: 300px;
+    background-color: #C9C0B9;
+    width: 200px;
+    height: 270px;
     padding-top: 1em;
     margin: auto;
     margin-top: 2em;
-}
 
-p
-{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    margin: .5em;
 }
 
 #resultat
 {
-    border: 1px solid black;
-    width: 90%;
-    height: 25px;
+    width: 95%;
+    height: 2.5em;
     margin: auto;
+    background-color: white;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5), 0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;
+    
 }
 
-.boutons
+.ch, .si, #egal
+{
+    width: 35px;
+    height: 35px;
+    margin: .2em;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.5), 0px 2px 2px 0px rgba(255, 255, 255, 0.5) inset;
+    color: white;
+}
+
+.ch
+{
+    background-color: #3B3B43;
+}
+
+.si
+{
+    background-color: #ABACAE;
+}
+
+#nombre
 {
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    padding: .2em;
+    margin-left: .5em;
 }
 
+#signe
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+    margin-right: 1em;
+}
 
+#classement
+{
+    display: flex;
+}
 
-
-
-
-
-
-
-
+#egal
+{
+    background-color: red;
+    margin-left: .5em;    
+}
 
 /* ==========================================================================
    Helper classes
