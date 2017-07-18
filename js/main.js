@@ -23,6 +23,12 @@ for (let j=0; j < signe.length; j++) {
 		result.innerHTML = view;
 	});
 
+// Clear AC
+	document.getElementById('AC').addEventListener("click", function (){
+		result.innerHTML = "";
+	});
+
+
 
 
 
